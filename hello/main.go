@@ -11,6 +11,9 @@ func Hello() string {
 
 // HelloYou returns the string >> Hello, world <<
 func HelloYou(name string) string {
+	if name == "" {
+		name = "world"
+	}
 	return englishHelloPrefix + name
 }
 
