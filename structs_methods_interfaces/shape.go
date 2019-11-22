@@ -16,7 +16,6 @@ type Circle struct {
 // Shape inplements area and perimeter
 type Shape interface {
 	Area() float64
-	Perimeter() float64
 }
 
 // Perimeter returns the parimeter of a shape
